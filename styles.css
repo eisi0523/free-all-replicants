@@ -3,3 +3,27 @@ body{
     background: lightblue;
     text-align: center;
 }
+
+/* Basic styling for the navigation bar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    overflow: hidden; /* Ensures the content fits in the navbar */
+    position: sticky; /* Sticks the navbar to the top of the page */
+    top: 0; /* Top alignment */
+}
+
+/* Navbar links styling */
+.navbar a {
+    float: left; /* Align links to the left side */
+    display: block; /* Change links from inline to block level elements */
+    color: white; /* White text color */
+    text-align: center; /* Center the text inside the links */
+    padding: 14px 20px; /* Add some padding for spacing */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd; /* Light grey background on hover */
+    color: black; /* Black text color on hover */
+}
